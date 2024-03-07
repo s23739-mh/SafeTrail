@@ -1,0 +1,5 @@
+export const COLOR1_BLUE = "#246eb9"
+export const COLOR2_LBLUE = "#a9d3ff"
+export const COLOR3_WHITE = "#f2f4ff"
+export const COLOR4_BLACK = "#0f0f0f"
+export const COLOR5_GRAY = "#2d2e2e"
