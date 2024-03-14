@@ -1,11 +1,16 @@
 To get ready with the project:
 
--
-*Own Environment*
+---
+
+*Own NEW Environment (omit it)*
+
 Run - 'npm install -g expo-cli'
+
 Run - 'npm install react-i18next i18next --save'
+
 Run - 'npm install i18next --save'
--
+
+---
 
 Keep in mind that the project is being developed in Visual Studio Code
 Make sure you have newest Node.js, Typescript installed 
@@ -28,14 +33,26 @@ In order to see current version of the app:
 Ctrl+C to terminate.
 
 3* - You don't have to scan it on emulator, on iOS systems you have to open your camera app instead of built-in camera 
+
 ---
+
 Current Project Structure:
 
-App.js - Heart of SafeTrail app
-package.json - File with data regarding package versions and commands.
+src - All the project files that may require changes
 
-consts - in this directory, we are keeping constants used throughout the system, in the future also types
-elements - Elements used to build screens, header/forms/input fields
-screens - Directory with screens :)
-assets - Images and other data. May require further division into subdirectories. 
-src - TEMPORARILY holds translations and translation configuration
+
+assets - Images and other data. May require further division into subdirectories.
+
+components - js files used to create UI
+
+screens - Directory with screens :) 
+
+i18n - Translations
+
+constants.js - in this file, we are keeping constants used throughout the system, in the future also types
+
+organisms - "Big templates" created from molecules and atoms
+
+molecules - Elements used to build screens, header/forms/input sets. Made of atoms
+
+atoms - The smallest, reusable elements
